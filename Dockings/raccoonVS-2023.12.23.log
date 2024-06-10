@@ -1,0 +1,129 @@
+
+ 	      ________________________________________________________________
+	
+	__________//___________________________/////___________________/____________
+	_________/__/__________________________/____/__________________/____________
+	________/____/___________/_____________/_____/_________________/____________
+	________/____/__/_____/_/////___/////__/_____/__/////___/////__/___/________
+	_______/______/_/_____/__/_____/_____/_/_____/_/_____/_/_____/_/_//_________
+	_______////////_/_____/__/_____/_____/_/_____/_/_____/_/_______//_/_________
+	_______/______/_/____//__/___/_/_____/_/____/__/_____/_/_____/_/___/________
+	_______/______/__////_/___///___/////__/////____/////___/////__/____/_______
+	
+	      ________________________________________________________________
+	                                 ______ 
+	                                /      \ 
+	                               /        \ 
+	                              /          \   Raccoon
+	                              \    /\    /    Virtual 
+	                               \  /  \  /      Screening 
+	                                \/ /\ \/        Generation      
+	                                 /\  \ 
+	                               /\  \__\    version 1.0  
+	                              /  \__\ 
+	                             /____\
+		
+		
+                  date :	2023-December-23 14:15
+      output directory :	/home/asus/Desktop/Skalny/Dockings
+    total docking jobs :	270
+      operative system :	Linux [ asus-F509FB ]
+   generating jobs for :	Workstation
+
+
+      ===================================== Ligand filters =========================================
+	
+                       Filtering criteria
+                       ------------------
+                                   MIN      MAX
+                    Hb donors :      0  -    99
+                 Hb acceptors :      0  -    99
+             Molecular weight :      0  -  9999
+        Total number of atoms :      0  -   999
+              Rotatable bonds :      0  -    32
+		Reject non-AD atypes  :   True
+	
+	
+		Ligands accepted for the virtual-screening: 10
+
+
+
+      =========================== Multiple target receptors =========================================
+
+   Total target structures :27
+
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/P59538.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/P59542.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/P59543.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/P59539.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/P59544.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/Q9NYW6.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/Q9NYV8.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/P59534.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/P59533.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/P0DSN6.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/P59537.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/P59540.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/Q7RTR8.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/Q9NYW0.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/Q9NYW7.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/P59541.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/Q9NYW2.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/Q9NYW4.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/P59535.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/Q9NYV9.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/Q9NYW1.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/P0DTE0.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/P59536.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/Q9NYV7.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/P59551.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/Q9NYW3.pdbqt
+TARGET>	/home/asus/Desktop/Skalny/Dockings/prot/Q9NYW5.pdbqt
+
+      ===================================== Maps ====================================================
+
+   Grid mode : calculated in each job.
+   Grid param file template :
+
+
+GPF>	npts 60 60 60
+GPF>	spacing 0.375
+GPF>	gridcenter   -20.310   -3.130   12.200
+
+     ==================================  Docking parameters ========================================
+
+   Docking mode : docking parameters will be >generated from template< for each ligand.
+   Docking param file template :
+
+
+DPF>	ga_run 10 
+
+     ======================================  Ligands list ============================================
+
+
+LIGAND> /home/asus/Desktop/Skalny/Dockings/lig/Gallic.pdbqt
+LIGAND> /home/asus/Desktop/Skalny/Dockings/lig/Caffeic.pdbqt
+LIGAND> /home/asus/Desktop/Skalny/Dockings/lig/Flavan-3-ol.pdbqt
+LIGAND> /home/asus/Desktop/Skalny/Dockings/lig/Protocatechuic.pdbqt
+LIGAND> /home/asus/Desktop/Skalny/Dockings/lig/Syringic.pdbqt
+LIGAND> /home/asus/Desktop/Skalny/Dockings/lig/Vanillic.pdbqt
+LIGAND> /home/asus/Desktop/Skalny/Dockings/lig/Epicatechin.pdbqt
+LIGAND> /home/asus/Desktop/Skalny/Dockings/lig/Catechin.pdbqt
+LIGAND> /home/asus/Desktop/Skalny/Dockings/lig/Ferulic.pdbqt
+LIGAND> /home/asus/Desktop/Skalny/Dockings/lig/p-Coumaric.pdbqt
+
+
+     ======================================================================================================
+     ======================================================================================================
+
+                              G E N E R A T I O N    S T A R T E D
+
+
+
+			 process completed successfully.
+
+
+
+
+
+[DONE]

@@ -1,0 +1,48 @@
+#!/bin/bash
+
+# Specify the script you want to run
+script_to_run="RunVS.sh"
+
+# Specify the directories where you want to run the script
+directories=(
+    ""
+    "Q9NYW2"
+    "Q9NYW1"
+    "Q9NYW3"
+    "P59551"
+    "Q9NYW4"
+    "P59544"
+    "P59540"
+    "P59539"
+    "P59537"
+    "Q7RTR8"
+    "P59536"
+    "Q9NYW5"
+    "P59535"
+    "P59534"
+    "P59533"
+    "P0DTE0"
+    "P0DSN6"
+    "P59538"
+    "Q9NYW6"
+    "P59541"
+    "P59543"
+    "P59542"
+    "Q9NYV8"
+    "Q9NYV7"
+    "Q9NYW0"
+    "Q9NYV9"
+    "Q9NYW7"
+)
+
+# Iterate over the directories and run the script
+for dir in "${directories[@]}"; do
+    if [ -d "$dir" ]; then
+        echo "Running $script_to_run in $dir"
+        (cd "$dir" && ./"$script_to_run")
+        echo "Script execution in $dir completed"
+    else
+        echo "Directory $dir not found"
+    fi
+done
+
